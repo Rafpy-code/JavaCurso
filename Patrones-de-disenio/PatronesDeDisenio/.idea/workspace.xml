@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24e13953-5e23-45cf-8419-0e0f56adb1d5" name="Changes" comment="Extenso..." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2BHlBvsdxQeC2W3xuERX2OAtGHZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROGRAMACION\JavaCurso\Patrones-de-disenio\PatronesDeDisenio\src\org\ramofpy\patrones\singleton" />
+      <recent name="D:\PROGRAMACION\JavaCurso\Patrones-de-disenio\PatronesDeDisenio\src\org\ramofpy\patrones\observer\ejemplos" />
+      <recent name="D:\PROGRAMACION\JavaCurso\Patrones-de-disenio\PatronesDeDisenio\src\org\ramofpy\patrones\observer" />
+      <recent name="D:\PROGRAMACION\JavaCurso\Patrones-de-disenio\PatronesDeDisenio\src\org\ramofpy\patrones\factory\producto" />
+      <recent name="D:\PROGRAMACION\JavaCurso\Patrones-de-disenio\PatronesDeDisenio\src\org\ramofpy\patrones\factory\ejemplo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjemploObserver2">
+    <configuration name="EjemploComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramofpy.patrones.composite.ejemplo.EjemploComposite" />
+      <module name="PatronesDeDisenio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramofpy.patrones.composite.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploCompositeBuscar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramofpy.patrones.composite.ejemplo.EjemploCompositeBuscar" />
+      <module name="PatronesDeDisenio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramofpy.patrones.composite.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploDecoradorCafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramofpy.patrones.decorator2.EjemploDecoradorCafe" />
+      <module name="PatronesDeDisenio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramofpy.patrones.decorator2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramofpy.patrones.observer.ejemplos.EjemploObserver" />
+      <module name="PatronesDeDisenio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramofpy.patrones.observer.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploObserver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramofpy.patrones.observer.ejemplos.EjemploObserver2" />
+      <module name="PatronesDeDisenio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramofpy.patrones.observer.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploObserver2" />
+        <item itemvalue="Application.EjemploObserver" />
+        <item itemvalue="Application.EjemploCompositeBuscar" />
+        <item itemvalue="Application.EjemploComposite" />
+        <item itemvalue="Application.EjemploDecoradorCafe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24e13953-5e23-45cf-8419-0e0f56adb1d5" name="Changes" comment="" />
+      <created>1656570760346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656570760346</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Patrones de diseño. Git ahora sí...">
+      <created>1656572850526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656572850526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Extenso...">
+      <created>1656584671866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656584671866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Patrones de diseño. Git ..." />
+    <MESSAGE value="Patrones de diseño. Git ahora sí..." />
+    <MESSAGE value="Extenso..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Extenso..." />
+  </component>
+</project>

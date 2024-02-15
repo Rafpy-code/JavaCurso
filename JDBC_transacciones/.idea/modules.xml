@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JDBC_transacciones.iml" filepath="$PROJECT_DIR$/.idea/JDBC_transacciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_java_jdbc_pool_trx/java_jdbc.iml" filepath="$PROJECT_DIR$/2_java_jdbc_pool_trx/java_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_java_jdbc_singleton_trx/java_jdbc (1).iml" filepath="$PROJECT_DIR$/1_java_jdbc_singleton_trx/java_jdbc (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_java_jdbc_pool_trx_service/java_jdbc (2).iml" filepath="$PROJECT_DIR$/3_java_jdbc_pool_trx_service/java_jdbc (2).iml" />
+    </modules>
+  </component>
+</project>

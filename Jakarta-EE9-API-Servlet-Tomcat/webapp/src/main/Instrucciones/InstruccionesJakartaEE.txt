@@ -1,0 +1,110 @@
+API SERVER JAKARTA EE CON INTELLJ IDEA
+REPOSITORIO:
+https://github.com/RamoncinFPY/Jakarta-EE9-API-Servlet-Tomcat.git
+
+1. Instalar/descargar el zip https://tomcat.apache.org/ y jdk-18.0.1.1 la versión actual que toque.
+
+2. Descomprimimos en la carpeta que vamos a trabajar.
+
+3. En la carpeta CONF abrimos el archivo tomcat-users.xml y escojemos una línea en la sección de usuarios y la configuramos:
+	<role rolename="manager-gui"/>
+  	<role rolename="manager-script"/>
+  	<role rolename="manager-jnx"/>
+  	<role rolename="manager-status"/>
+  	<role rolename="admin-gui"/>
+  	<user username="ramon" password="12345" roles="admin-gui,manager-gui,manager-script"/>
+
+4. En la carpeta D:\PROGRAMACION\JavaCurso\JAKARTA EE\apache-tomcat-10.0.22\bin\setClassPath.bat seteamos con la ruta de nuestros archivos.
+	set JAVA_HOME=D:\PROGRAMACION\JavaCurso\JAKARTA EE\apache-tomcat-10.0.22
+	set JRE_HOME=D:\PROGRAMACION\JavaCurso\JAKARTA EE\jdk-18.0.1.1
+
+5. En Intellj -> new project: 
+		name: "mi proyecto"
+		Location: D:\Ubicación deseada
+		Languaje: Java
+		Build system: Maven
+		JDK: 18 Oracle OpenJDK  // En este momento 06/2022
+	Advanced settings
+		GrupoId: org.ramonfpy.miproyecto //
+		Artifact: mi proyecto
+		Version: 1.0-SNAPSHOT //En este momento 06/2022
+
+6. En el archivo pom.xml(mi proyecto) agregamos lo siguiente:
+    <groupId>org.ramonfpy.webapp.servlet</groupId>
+    <artifactId>webapp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging> <!--web archive-->
+
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>9.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.9.0</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://localhost:8080/manager/text</url>
+                    <username>ramon</username>
+                    <password>12345</password>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+ 
+
+7. Dentro del proyecto en SRC -> MAIN creamos el directorio webapp -> y dentro creamos un documento index.html.
+
+8. Debemos configurar el RUN:	
+	vamos a Add Configuration alado del martillo en la parte superior:
+ 		- le damos a add new
+		- escogemos Maven
+		- Name: tomcat7
+		  Run: tomcat7:redeploy
+		  Working Directory: webapp //donde está nuestro directorio
+9. AÚn debemos levantar el servidor, abrimos el terminal de IntellJ 
+	PS D:\PROGRAMACION\JavaCurso\JAKARTA EE> cd apache-tomcat-10.0.22
+	PS D:\PROGRAMACION\JavaCurso\JAKARTA EE\apache-tomcat-10.0.22> cd bin
+	PS D:\PROGRAMACION\JavaCurso\JAKARTA EE\apache-tomcat-10.0.22\bin> startup.bat SI SALTA EL ERROR EJECUTAR:
+	PS D:\PROGRAMACION\JavaCurso\JAKARTA EE\apache-tomcat-10.0.22\bin> .\startup.bat Y SE ABBRIRÁ EL CMD MOSTRANDO LA EJECUCIÓN DEL TOMCAT
+
+10. Ahora le podemos dar al RUN de intellJ y debería mostrar entre otras cosas esto:
+	[INFO] Deploying war to http://localhost:8080/webapp  
+	Uploading: http://localhost:8080/manager/text/deploy?path=%2Fwebapp&update=true
+	Uploaded: http://localhost:8080/manager/text/deploy?path=%2Fwebapp&update=true (2 KB at 1786.1 KB/sec)
+    dando click en los enlaces ya podemos ingresar a la webapp o podemos ingresa al manager con nuestro usuario y contraseña.
+
+11. Para parar el tomcat en el cmd que se abrió damos CTRL + C y listo.
+    o desde el terminal de intellJ escribimos el comando shutdown.bat + INTRO.
+
+		
+		
+		
+

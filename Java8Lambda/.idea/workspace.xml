@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c10fbdee-0cff-444f-b164-a93733aa6cc7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Afr6WooO3XeGbAr6ZH41De3HcZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ramonfpy.java8.lambda.tarea2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.ramonfpy.java8.lambda.tarea2.Aplicacion">
+    <configuration name="EjemploFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.java8.lambda.EjemploFunction" />
+      <module name="Java8Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploInterfaceFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.java8.lambda.EjemploInterfaceFunctional" />
+      <module name="Java8Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.java8.lambda.EjemploPredicate" />
+      <module name="Java8Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.ramonfpy.java8.lambda.tarea1.Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.java8.lambda.tarea1.Aplicacion" />
+      <module name="Java8Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.java8.lambda.tarea1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.ramonfpy.java8.lambda.tarea2.Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.java8.lambda.tarea2.Aplicacion" />
+      <module name="Java8Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.java8.lambda.tarea2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.ramonfpy.java8.lambda.tarea2.Aplicacion" />
+        <item itemvalue="Application.org.ramonfpy.java8.lambda.tarea1.Aplicacion" />
+        <item itemvalue="Application.EjemploInterfaceFunctional" />
+        <item itemvalue="Application.EjemploPredicate" />
+        <item itemvalue="Application.EjemploFunction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c10fbdee-0cff-444f-b164-a93733aa6cc7" name="Changes" comment="" />
+      <created>1655411305842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655411305842</updated>
+    </task>
+    <servers />
+  </component>
+</project>

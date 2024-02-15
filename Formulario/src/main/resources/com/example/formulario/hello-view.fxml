@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="359.0" style="-fx-background-color: #62f573;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.formulario.ViewUIControls1_Controller">
+   <children>
+      <AnchorPane prefHeight="55.0" prefWidth="359.0" style="-fx-background-color: #1e3861;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox focusTraversable="true" prefHeight="66.0" prefWidth="359.0" AnchorPane.bottomAnchor="-11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView cache="true" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/iconos/user_blanco1x.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="9.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/iconos/location.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="9.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/iconos/graduate.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="9.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/iconos/exit.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="9.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+               </children>
+            </HBox>
+         </children>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+      </AnchorPane>
+      <AnchorPane layoutX="-4.0" layoutY="94.0" prefHeight="324.0" prefWidth="359.0" style="-fx-background-color: #1e3861;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="12.0" layoutY="31.0" prefHeight="23.0" prefWidth="81.0" text="Nombre:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="80.0" text="Apellido:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="126.0" prefHeight="23.0" prefWidth="95.0" text="Identificación:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_nombre" layoutX="137.0" layoutY="30.0" onKeyTyped="#nombre_eventKey" prefHeight="23.0" prefWidth="184.0" promptText="Escriba su nombre" style="-fx-background-color: black; -fx-text-fill: #62f573;">
+               <font>
+                  <Font name="Roboto" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="txt_apellido" layoutX="139.0" layoutY="76.0" onKeyTyped="#apellido_eventkey" prefHeight="25.0" prefWidth="184.0" promptText="Escriba su apellido" style="-fx-background-color: black; -fx-text-fill: #62f573;" />
+            <TextField fx:id="txt_dni" alignment="CENTER" layoutX="138.0" layoutY="125.0" onKeyTyped="#dni_eventkey" prefHeight="25.0" prefWidth="82.0" promptText="44444444" style="-fx-background-color: black; -fx-text-fill: #62f573;" />
+            <Label layoutX="11.0" layoutY="175.0" text="Email:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_email" layoutX="139.0" layoutY="172.0" onKeyTyped="#email_eventkey" prefHeight="25.0" prefWidth="184.0" promptText="correo@correo.com" style="-fx-background-color: black; -fx-text-fill: #62f573;" />
+            <Label layoutX="12.0" layoutY="218.0" text="Edad:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="262.0" text="Género:" textFill="WHITE" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font name="Roboto Medium" size="14.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="hombre" layoutX="105.0" layoutY="256.0" mnemonicParsing="false" onAction="#hombre_elegido" text="Masculino" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="mujer" layoutX="227.0" layoutY="254.0" mnemonicParsing="false" onAction="#mujer_elegido" text="Femenino" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font>
+            </RadioButton>
+            <DatePicker fx:id="txt_edad" layoutX="137.0" layoutY="214.0" onKeyTyped="#edad_eventkey" prefHeight="25.0" prefWidth="111.0" promptText="2022-05-21" style="-fx-background-color: black; -fx-text-fill: #62f573;" />
+            <ButtonBar layoutX="98.0" layoutY="290.0" prefHeight="30.0" prefWidth="162.0">
+              <buttons>
+                  <Button fx:id="btn_aceptar" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btn_aceptar_action" style="-fx-background-color: red;" text="Aceptar" />
+                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btn_salir" text="Salir">
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                  </Button>
+              </buttons>
+            </ButtonBar>
+            <TextField fx:id="txt_dni_letra" alignment="CENTER" layoutX="231.0" layoutY="125.0" prefHeight="25.0" prefWidth="20.0" promptText="R" />
+         </children></AnchorPane>
+      <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="49.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="310.0" AnchorPane.topAnchor="58.0">
+         <image>
+            <Image url="@../../../../java/iconos/triangle_40px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

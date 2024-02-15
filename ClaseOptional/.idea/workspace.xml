@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84fa4f4c-ee5b-447b-9b59-4a15804635c0" name="Changes" comment="cambio de ubicación del proyecto." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2B4xQUqIp9pvTsxAyh91HC2uH5U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/PROGRAMACION/JavaCurso/ClaseOptional"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ramonfpy.optional.ejemplo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjemploRepositorMapFilter">
+    <configuration name="EjemploOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.optional.ejemplo.EjemploOptional" />
+      <module name="ClaseOptional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploRepositorMapFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.optional.ejemplo.EjemploRepositorMapFilter" />
+      <module name="ClaseOptional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploRepositorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.optional.ejemplo.EjemploRepositorio" />
+      <module name="ClaseOptional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploRepositorioOrElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.optional.ejemplo.EjemploRepositorioOrElse" />
+      <module name="ClaseOptional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploRepositorioOrElseThrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ramonfpy.optional.ejemplo.EjemploRepositorioOrElseThrow" />
+      <module name="ClaseOptional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ramonfpy.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploRepositorMapFilter" />
+        <item itemvalue="Application.EjemploRepositorioOrElseThrow" />
+        <item itemvalue="Application.EjemploRepositorioOrElse" />
+        <item itemvalue="Application.EjemploRepositorio" />
+        <item itemvalue="Application.EjemploOptional" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84fa4f4c-ee5b-447b-9b59-4a15804635c0" name="Changes" comment="" />
+      <created>1656179143428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656179143428</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Ciertos métodos funcionan a partir de Java 9">
+      <created>1656182752169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656182752169</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ciertos métodos funcionan a partir de Java9">
+      <created>1656184586723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656184586723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="main o master, ...">
+      <created>1656188186664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656188186664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="main o master, ...&#10;no muy convencido del uso real, a seguir aprendiendo">
+      <created>1656241913650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656241913650</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cambio de ubicación del proyecto.">
+      <created>1656266137655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656266137655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ciertos métodos funcionan a partir de Java 9" />
+    <MESSAGE value="Ciertos métodos funcionan a partir de Java9" />
+    <MESSAGE value="main o master, ..." />
+    <MESSAGE value="main o master, ...&#10;no muy convencido del uso real, a seguir aprendiendo" />
+    <MESSAGE value="cambio de ubicación del proyecto." />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio de ubicación del proyecto." />
+  </component>
+</project>
